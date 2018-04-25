@@ -13,6 +13,10 @@ const (
 	//通知栏消息 by pushId
 	PushNotificationMessageByPushId = Host + "/garcia/api/server/push/varnished/pushByPushId"
 
+	PushGetTaskId = Host + "/garcia/api/server/push/pushTask/getTaskId"
+
+	PushNotificationMessageTaskId = Host + "/garcia/api/server/push/task/varnished/pushByPushId"
+
 	PushThroughMessageByAlias      = Host + "/garcia/api/server/push/unvarnished/pushByAlias"
 	PushNotificationMessageByAlias = Host + "/garcia/api/server/push/varnished/pushByAlias"
 
