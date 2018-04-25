@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"crypto/md5"
 	"encoding/hex"
-	"github.com/Houjingchao/flyme_push/consts"
+	"github.com/heycayc/flyme_push/consts"
 
 )
 
